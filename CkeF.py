@@ -9,4 +9,9 @@ def convert_temperature(value, unit):
     else:
         return "Invalid unit. Please use 'C' for Celsius or 'F' for Fahrenheit."
 
-print(convert_temperature(70, 'C'))  # Output: 120.00 F
+print(convert_temperature(70, 'C'))
+
+circle_area = lambda radius: 3.14 * radius ** 2
+radius = float(input("Enter the radius: "))
+result = circle_area(radius)
+print("Area of the circle is:", result)
